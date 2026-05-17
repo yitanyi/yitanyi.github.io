@@ -1,7 +1,7 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "YCY / Homepage"
 title_separator          : "-"
-name                     : "YCY"
+name                     : "Caiyu Yang 杨采钰"
 description              : &description "A clean academic homepage template."
 url                      : "https://yitanyi.github.io"
 baseurl                  : ""
@@ -9,9 +9,9 @@ repository               : "yitanyi/yitanyi.github.io"
 
 author:
   avatar           : "1.png"
-  name             : "YCY"
+  name             : "Caiyu Yang 杨采钰"
   pronouns         :
-  bio              : "Virtual Reality Technology, AI Enthusiast."
+  bio              : "She/Her"
   location         : "Nanchang, China"
   employer         : "Jiangxi University of Science and Technology"
   uri              :
