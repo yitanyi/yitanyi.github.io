@@ -3,7 +3,7 @@ title                    : "WowPage"
 title_separator          : "-"
 name                     : "Your Name"
 description              : &description "A clean academic homepage template."
-url                      : ""
+url                      : "https://yitanyi.github.io"
 baseurl                  : ""
 repository               : "yitanyi/yitanyi.github.io"
 
