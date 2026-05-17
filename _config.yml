@@ -5,7 +5,7 @@ name                     : "Your Name"
 description              : &description "A clean academic homepage template."
 url                      : ""
 baseurl                  : ""
-repository               : ""
+repository               : "yitanyi/yitanyi.github.io"
 
 author:
   avatar           : "1.png"
