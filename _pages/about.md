@@ -9,31 +9,21 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I work on AI, survive on instant noodles, and submit papers 3 minutes before deadlines.
+Hi! An AI enthusiast who was drawn to the field through mathematics and mathematical modeling.
 
-Feel free to reach out if you are interested in collaboration or potential opportunities.
+
 
 News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-
-<li><span class="news-date"><em>2026.10</em></span> 🚀🚀 Submitted a paper 3 minutes before the deadline.</li>
-
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-<li><span class="news-date"><em>2026.09</em></span> 📉📉 My GPU resigned before I did.</li>
-<li><span class="news-date"><em>2026.08</em></span> ☕☕ Survived on coffee for 72 consecutive hours.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Weijia.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 Promoted from intern to “experienced intern”.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🤡🤡 Accidentally deleted the production database.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Haidilao.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2024.10</em></span> 🎉🎉 I began my studies at MIT.</li>
+    <li><span class="news-date"><em>2023.10</em></span> ✨ First encountered mathematical modeling — absolutely amazing!</li>
+    <li><span class="news-date"><em>2024.04</em></span> 📈 Predicting stock returns turned out to be much harder than predicting closing prices.</li>
+    <li><span class="news-date"><em>2024.10</em></span> 🖼️ Only tried computer vision for 7 days.</li>
+    <li><span class="news-date"><em>2024.11</em></span> 🔥 Configuring TensorFlow-GPU burned me out.</li>
+    <li><span class="news-date"><em>2025.04</em></span> 🎁 Alibaba sent me a YunXiaoBao badge — so happy!</li>
+    <li><span class="news-date"><em>2025.11</em></span> 🤖 First time playing with classification fine-tuning.</li>
+    <li><span class="news-date"><em>2026.05</em></span> 🧪 Still cooking models (training in progress).</li>
   </ul>
 </div>
 
@@ -42,33 +32,14 @@ Experience
 
 <div class="experience-container">
 
-  <div class="experience-card">
-      <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Haidilao</strong><br>
-          <em>2026.05 - Present</em><br>
-          LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
-          <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
-      </div>
-  </div>
 
   <div class="experience-card">
-      <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
+      <img src="images/jxust_logo.jpg" alt="JXUST logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Weijia</strong><br>
-          <em>2026.01 - 2026.03</em><br>
-          Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
-          <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/mit.png" alt="MIT logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong><br>
+          <strong>Jiangxi University of Science and Technology</strong><br>
           <em>2023.09 - Present</em><br>
-          Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
-          <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
+          Rank 3/88, Bachelor of Engineering in Virtual Reality Technology<br>
+          <span style="color:#888;">Research interests include large language models, multimodal learning, and computer graphics applications.</span>
       </div>
   </div>
 </div>
@@ -79,57 +50,24 @@ Publications
 <button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
 <button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button>
 
-(* equal contribution · &dagger; corresponding author · &Dagger; project leader)
+(* equal contribution · † corresponding author · ‡ project leader)
 
 <div id="core-publications" class="publication-view" data-publication-view="core">
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/sleep.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </i><br> 
-      We present SleepFormer, the first framework capable of automatically generating convincing excuses for missed deadlines, skipped meetings, and unfinished experiments.
-      <br> 
-      <b><i style="color:#83a1c7;">ACL 3026 Oral &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
-    </div>
-  </div> 
-</div>
-
 
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/gpu.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+      <img src="images/patent_diagram.png" alt="Patent diagram" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
-      <strong>Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</strong><br>
+      <strong>A Dynamic PBR Material Generation Method and System Based on State Space Models</strong><br>
       <i style="font-size: 13px;">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
+        ycy
       </i><br> 
-      We conduct the first psychological evaluation of modern GPUs under extreme training conditions. Results reveal that 87% of devices exhibit symptoms of burnout after repeated “just one more epoch” requests.
+      Chinese invention patent application (pending). Proposes a state-space-based approach for dynamic PBR material synthesis.
       <br> 
-      <b><i style="color:#83a1c7;">ICLR 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+      <b><i style="color:#83a1c7;">Patent pending &nbsp;</i></b> 
+      <a href=""><em>[details]</em></a> 
     </div>
   </div> 
 </div>
@@ -137,131 +75,60 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/noodle.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+      <img src="images/public_opinion.png" alt="Public opinion evolution" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
-      <strong>Instant Noodles as a Scalable Training Infrastructure for Graduate Students</strong><br>
+      <strong>Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</strong><br>
       <i style="font-size: 13px;">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
+        ycy
       </i><br> 
-      We introduce Noodle-Scaling Law, showing that research productivity increases logarithmically with instant noodle consumption before collapsing catastrophically at 3 a.m.
+      Submitted to <em>Information Exploration</em>. Analyzes sentiment dynamics and early warning signals using NLP.
       <br> 
-      <b><i style="color:#83a1c7;">ICML 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+      <b><i style="color:#83a1c7;">Under review &nbsp;</i></b> 
+      <a href=""><em>[preprint]</em></a> 
+    </div>
+  </div> 
+</div>
+
+<div class="publication-card" data-category="all"> 
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
+      <img src="images/financial_network.png" alt="Financial network" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+    </div> 
+    <div>
+      <strong>Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</strong><br>
+      <i style="font-size: 13px;">
+        ycy
+      </i><br> 
+      Published in <em>Statistics and Application</em> (2025). Uses complex network theory to study inter-market correlations.
+      <br> 
+      <b><i style="color:#83a1c7;">Published &nbsp;</i></b> 
+      <a href=""><em>[paper]</em></a> 
     </div>
   </div> 
 </div>
 
 </div>
-
 
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
     <li>
-      <span class="pub-list-badge">ACL 3030</span>
-      <span class="pub-list-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+      <span class="pub-list-badge">Patent pending</span>
+      <span class="pub-list-title">A Dynamic PBR Material Generation Method and System Based on State Space Models</span><br>
+      <span class="pub-list-authors">ycy</span>
+      <span class="pub-list-links"><a href="">[details]</a></span>
     </li>
     <li>
-      <span class="pub-list-badge">ACL 3029</span>
-      <span class="pub-list-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+      <span class="pub-list-badge">Under review</span>
+      <span class="pub-list-title">Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</span><br>
+      <span class="pub-list-authors">ycy</span>
+      <span class="pub-list-links"><a href="">[preprint]</a></span>
     </li>
     <li>
-      <span class="pub-list-badge">ACL 3028</span>
-      <span class="pub-list-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3027</span>
-      <span class="pub-list-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3026</span>
-      <span class="pub-list-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</span><br>
-      <span class="pub-list-authors">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</span><br>
-      <span class="pub-list-authors">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+      <span class="pub-list-badge">Published</span>
+      <span class="pub-list-title">Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</span><br>
+      <span class="pub-list-authors">ycy</span>
+      <span class="pub-list-links"><a href="">[paper]</a></span>
     </li>
   </ul>
 </div>
@@ -275,47 +142,37 @@ Projects
 <div class="project-card" data-category="project"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/2.png" alt="ManiUniCon" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+      <img src="images/resume_roaster.png" alt="Resume Roaster demo" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div> 
-      <strong>WowPage</strong><br>
+      <strong>Resume Roaster</strong><br>
       <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>,
-        <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su</strong></a>.
+        ycy
       </i><br>
-      In collaboration with Yue Su, I refined and improved his original homepage template. A clean standalone template version is coming soon.
+      An intelligent mock interview dialogue system based on RAG (Retrieval-Augmented Generation). Features: resume parsing, multi‑style interview simulation, speech recognition, and performance evaluation.
       <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
+      <b><i style="color:#83a1c7;">RAG · LLM · ASR · TTS &nbsp;</i></b> 
       <a href=""><em>[code]</em></a> 
+      <a href=""><em>[demo]</em></a> 
     </div>
   </div> 
 </div>
 
 
-Awards
+Awards & Competitions
 --------
-- *3026.01*, Successfully survived 17 consecutive paper deadlines without touching grass.
-- *3025.09*, Best Excuse Generation Award, SleepFormer Research Group.
-- *3025.06*, Outstanding Contributor to Instant Noodle Consumption Efficiency.
-- *3024.12*, GPU Emotional Damage Scholarship (Full Funding).
-- *3024.08*, Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.
+- **Tianchi CCL2026-Eval (Grain Breeding IE)** : Rank 11 on A榜 (fine‑tuning track)
+- **Tianchi NLP News Classification** : Rank 12
+- **Tianchi AI in Financial Marketing** : Rank 144 (time series forecasting)
+- **Tianchi Medical Search Query Relevance** : Rank 288
+- **Tianchi Tmall Repurchase Prediction** : Rank 291 (challenge baseline)
+- **Ruikang Digital Human Competition** : National First Prize
+- **Blue Bridge Cup (National)** : National Second Prize
+- **National College Student Statistical Modeling Contest** : Provincial First Prize
+- **Zhengda Cup** : Provincial First Prize
+- **NCDA (Future Designer)** : Provincial First Prize
+- **National College Mathematical Competition** : Provincial Second Prize
 
 
 
-Services
---------
-- *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
-- *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
-- Reviewer for Journal of Unfinished Projects.
-- Area Chair for Conference on Last-Minute Submissions (CLMS).
-- Volunteer Therapist for Burned-out GPUs.
 
-
-
-Talks
---------
-- *3026.07*, “How to Finish a Paper 3 Minutes Before Deadline.”
-- *3026.05*, “Large Language Models and Large Amounts of Caffeine.”
-- *3025.11*, “On the Emotional Stability of GPUs Under Extreme Stress.”
-- *3025.08*, “Instant Noodles as Scalable Research Infrastructure.”
-- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.”

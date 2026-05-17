@@ -1,7 +1,7 @@
 locale                   : "en-US"
 title                    : "WowPage"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "YCY"
 description              : &description "A clean academic homepage template."
 url                      : "https://yitanyi.github.io"
 baseurl                  : ""
@@ -9,14 +9,14 @@ repository               : "yitanyi/yitanyi.github.io"
 
 author:
   avatar           : "1.png"
-  name             : "Your Name"
+  name             : "YCY"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
+  bio              : "Jiangxi University of Science and Technology, Virtual Reality Technology, AI Enthusiast."
+  location         : "Nanchang, China"
   employer         : "Institution or Company"
   uri              :
-  email            : "name@example.com"
-
+  email            : "1129020338@qq.com"
+ github : "yitanyi" 
   arxiv            :
   googlescholar    :
   impactstory      :
