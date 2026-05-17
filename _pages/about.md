@@ -62,7 +62,7 @@ Publications
     <div>
       <strong>A Dynamic PBR Material Generation Method and System Based on State Space Models</strong><br>
       <i style="font-size: 13px;">
-        ycy
+        <strong>Caiyu Yang</strong>‡, Guoyong Wang, Wenze Bai, Yi Shang
       </i><br> 
       Chinese invention patent application (pending). Proposes a state-space-based approach for dynamic PBR material synthesis.
       <br> 
@@ -80,7 +80,7 @@ Publications
     <div>
       <strong>Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</strong><br>
       <i style="font-size: 13px;">
-        ycy
+        Chunqi Hu†, <strong>Caiyu Yang</strong>‡, Yixin Zheng, Weilian Xie
       </i><br> 
       Submitted to <em>Information Exploration</em>. Analyzes sentiment dynamics and early warning signals using NLP.
       <br> 
@@ -98,7 +98,7 @@ Publications
     <div>
       <strong>Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</strong><br>
       <i style="font-size: 13px;">
-        ycy
+        <strong>Caiyu Yang</strong>, Xujun Cai†, Fan Zhang
       </i><br> 
       Published in <em>Statistics and Application</em> (2025). Uses complex network theory to study inter-market correlations.
       <br> 
@@ -115,19 +115,19 @@ Publications
     <li>
       <span class="pub-list-badge">Patent pending</span>
       <span class="pub-list-title">A Dynamic PBR Material Generation Method and System Based on State Space Models</span><br>
-      <span class="pub-list-authors">ycy</span>
+      <span class="pub-list-authors"><strong>Caiyu Yang</strong> et al.</span>
       <span class="pub-list-links"><a href="">[details]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Under review</span>
       <span class="pub-list-title">Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</span><br>
-      <span class="pub-list-authors">ycy</span>
+      <span class="pub-list-authors">Chunqi Hu, <strong>Caiyu Yang</strong>, et al.</span>
       <span class="pub-list-links"><a href="">[preprint]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Published</span>
       <span class="pub-list-title">Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</span><br>
-      <span class="pub-list-authors">ycy</span>
+      <span class="pub-list-authors"><strong>Caiyu Yang</strong>, Xujun Cai, Fan Zhang</span>
       <span class="pub-list-links"><a href="">[paper]</a></span>
     </li>
   </ul>
@@ -147,7 +147,7 @@ Projects
     <div> 
       <strong>Resume Roaster</strong><br>
       <i style="font-size: 13px;">
-        ycy
+        <strong>Caiyu Yang</strong>, Junzhao Zhang, Zhilei Lin, Renjie Cao, Jiaxin Li
       </i><br>
       An intelligent mock interview dialogue system based on RAG (Retrieval-Augmented Generation). Features: resume parsing, multi‑style interview simulation, speech recognition, and performance evaluation.
       <br> 
