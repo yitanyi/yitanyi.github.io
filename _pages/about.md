@@ -17,13 +17,13 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2023.10</em></span> ✨ First encountered mathematical modeling — absolutely amazing!</li>
-    <li><span class="news-date"><em>2024.04</em></span> 📈 Predicting stock returns turned out to be much harder than predicting closing prices.</li>
-    <li><span class="news-date"><em>2024.10</em></span> 🖼️ Only tried computer vision for 7 days.</li>
-    <li><span class="news-date"><em>2024.11</em></span> 🔥 Configuring TensorFlow-GPU burned me out.</li>
-    <li><span class="news-date"><em>2025.04</em></span> 🎁 Alibaba sent me a YunXiaoBao badge — so happy!</li>
-    <li><span class="news-date"><em>2025.11</em></span> 🤖 First time playing with classification fine-tuning.</li>
     <li><span class="news-date"><em>2026.05</em></span> 🧪 Still cooking models (training in progress).</li>
+    <li><span class="news-date"><em>2025.11</em></span> 🤖 First time playing with classification fine-tuning.</li>
+    <li><span class="news-date"><em>2025.04</em></span> 🎁 Alibaba sent me a YunXiaoBao badge — so happy!</li>
+    <li><span class="news-date"><em>2024.11</em></span> 🔥 Configuring TensorFlow-GPU burned me out.</li>
+    <li><span class="news-date"><em>2024.10</em></span> 🖼️ Only tried computer vision for 7 days.</li>
+    <li><span class="news-date"><em>2024.04</em></span> 📈 Predicting stock returns turned out to be much harder than predicting closing prices.</li>
+    <li><span class="news-date"><em>2023.10</em></span> ✨ First encountered mathematical modeling — absolutely amazing!</li>
   </ul>
 </div>
 
@@ -64,7 +64,7 @@ Publications
       <i style="font-size: 13px;">
         <strong>Caiyu Yang</strong>‡, Guoyong Wang, Wenze Bai, Yi Shang
       </i><br> 
-      Chinese invention patent application (pending). Proposes a state-space-based approach for dynamic PBR material synthesis.
+      Chinese invention patent application (pending-2026). Proposes a state-space-based approach for dynamic PBR material synthesis.
       <br> 
       <b><i style="color:#83a1c7;">Patent pending &nbsp;</i></b> 
       <a href=""><em>[details]</em></a> 
@@ -82,7 +82,7 @@ Publications
       <i style="font-size: 13px;">
         Chunqi Hu†, <strong>Caiyu Yang</strong>‡, Yixin Zheng, Weilian Xie
       </i><br> 
-      Submitted to <em>Information Exploration</em>. Analyzes sentiment dynamics and early warning signals using NLP.
+      Submitted to <em>Information Exploration</em> (2026). Analyzes sentiment dynamics and early warning signals using NLP.
       <br> 
       <b><i style="color:#83a1c7;">Under review &nbsp;</i></b> 
       <a href=""><em>[preprint]</em></a> 
