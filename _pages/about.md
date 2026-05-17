@@ -75,7 +75,7 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/public_opinion.png" alt="Public opinion evolution" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+      <img src="images/public_opinion_chart.png" alt="Public opinion evolution" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
       <strong>Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</strong><br>
@@ -93,7 +93,7 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/financial_network.png" alt="Financial network" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+      <img src="images/market_network.png" alt="Financial network" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
       <strong>Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</strong><br>
@@ -142,7 +142,7 @@ Projects
 <div class="project-card" data-category="project"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/resume_roaster.png" alt="Resume Roaster demo" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+      <img src="images/resume_roaster_demo.png" alt="Resume Roaster demo" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div> 
       <strong>Resume Roaster</strong><br>
@@ -159,9 +159,9 @@ Projects
 </div>
 
 
-Awards & Competitions
+Awards  
 --------
-- **Tianchi CCL2026-Eval (Grain Breeding IE)** : Rank 11 on A榜 (fine‑tuning track)
+- **Tianchi CCL2026-Eval (Grain Breeding Information Extraction Evaluation)** : Rank 11 on A-list (fine‑tuning track)
 - **Tianchi NLP News Classification** : Rank 12
 - **Tianchi AI in Financial Marketing** : Rank 144 (time series forecasting)
 - **Tianchi Medical Search Query Relevance** : Rank 288
@@ -171,7 +171,7 @@ Awards & Competitions
 - **National College Student Statistical Modeling Contest** : Provincial First Prize
 - **Zhengda Cup** : Provincial First Prize
 - **NCDA (Future Designer)** : Provincial First Prize
-- **National College Mathematical Competition** : Provincial Second Prize
+- **National College Mathematical Competition**: Provincial Second Prize
 
 
 
