@@ -168,7 +168,7 @@ Works
 <div class="works-card">
   <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
     <div style="flex: 1.2; min-width: 280px;">
-      <video width="100%" controls poster="/assets/videos/cover.jpg" preload="metadata">
+      <video width="100%" preload="metadata">
         <source src="/assets/videos/1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
