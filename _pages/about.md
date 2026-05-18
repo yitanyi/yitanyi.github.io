@@ -159,6 +159,66 @@ Projects
 </div>
 
 
+
+
+
+Works
+--------
+
+<div class="works-card">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1.2; min-width: 280px;">
+      <video width="100%" controls poster="/assets/videos/cover.jpg" preload="metadata">
+        <source src="/assets/videos/1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div style="flex: 2; min-width: 200px;">
+      <strong>"Courtyard Time" – AI-driven healing life simulation game</strong><br>
+      <i style="font-size: 13px;">Unity · Deepseek API · Real-time dialogue AI · Memory puzzle mechanism</i><br><br>
+      <p>In a peaceful rural courtyard, live with AI characters driven by Deepseek API. Complete random daily tasks, discover the beauty of everyday life, and heal your soul.</p>
+      <p><strong>Core gameplay:</strong> Deep social simulation (free voice/text chat + memory system), explore the village and mountains, daily healing tasks, help Grandma Chen (who has Alzheimer's) retrieve lost memory fragments.</p>
+      <p><strong>Unique selling points:</strong> Every NPC is powered by a large language model, featuring long-term memory and emotional changes; tasks are never repetitive but deeply tied to your relationship with each character.</p>
+      <p><b><i style="color:#83a1c7;">🎮 In development &nbsp;</i></b></p>
+    </div>
+  </div>
+</div>
+
+<style>
+.works-card {
+  background: var(--card-bg, #fff);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+.works-card:hover {
+  transform: translateY(-3px);
+}
+@media (max-width: 768px) {
+  .works-card > div {
+    flex-direction: column;
+  }
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Awards  
 --------
 - **Tianchi CCL2026-Eval (Grain Breeding Information Extraction Evaluation)** : Rank 11 on A-list (fine‑tuning track)
