@@ -167,7 +167,7 @@ Awards
 - **Tianchi Medical Search Query Relevance** : Rank 288
 - **Tianchi Tmall Repurchase Prediction** : Rank 291 (challenge baseline)
 - **Ruikang Digital Human Competition** : National First Prize
-- **Blue Bridge Cup (National)** : National Second Prize
+- **Blue Bridge Cup** : National Second Prize
 - **National College Student Statistical Modeling Contest** : Provincial First Prize
 - **Zhengda Cup** : Provincial First Prize
 - **NCDA (Future Designer)** : Provincial First Prize
