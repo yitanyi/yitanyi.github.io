@@ -244,13 +244,14 @@ Awards
 - **Tianchi AI in Financial Marketing** : Rank 144 (time series forecasting)
 - **Tianchi Medical Search Query Relevance** : Rank 288
 - **Tianchi Tmall Repurchase Prediction** : Rank 291 (challenge baseline)
-- **Ruikang Digital Human Competition** : National First Prize
-- **Blue Bridge Cup** : National Second Prize
-- **National College Student Statistical Modeling Contest** : Provincial First Prize
-- **Zhengda Cup** : Provincial First Prize
-- **NCDA (Future Designer)** : Provincial First Prize
+- **RAICOM Robot Developer Competition** : National First Prize
+- **Lanqiao Cup(AIGC Video Creative Design)** : National Second Prize
+- **Lanqiao Cup (Visual Art Design)** : National Third Prize
+- **The 11th National Statistical Modeling Competition for College Students** : Provincial First Prize
+- **"Zhengda Cup" The 12th National College Student Market Research and Analysis Competition** : Provincial First Prize
+- **Future Designer·National College Digital Art Design Competition** : Provincial First Prize
 - **National College Mathematical Competition**: Provincial Second Prize
-
-
+- **The 10th National Statistical Modeling Competition for College Students** : Provincial Third Prize
+- **Lanqiao Cup (Agent Development)** : Provincial Third Prize
 
 
