@@ -165,13 +165,31 @@ Projects
 Works
 --------
 
+
+
 <div class="works-card">
   <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
     <div style="flex: 1.2; min-width: 280px;">
-      <video width="100%" preload="metadata">
+      <video width="100%" preload="metadata" controls id="myVideo">
         <source src="/Videos/1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+      <script>
+        (function() {
+          var video = document.getElementById('myVideo');
+          if (video) {
+            video.addEventListener('click', function() {
+              if (video.paused) {
+                video.play().catch(function(e) {
+                  console.log("播放失败:", e);
+                });
+              } else {
+                video.pause();
+              }
+            });
+          }
+        })();
+      </script>
     </div>
     <div style="flex: 2; min-width: 200px;">
       <strong>"Courtyard Time" – AI-driven healing life simulation game</strong><br>
