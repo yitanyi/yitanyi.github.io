@@ -145,15 +145,14 @@ Projects
       <img src="images/resume_roaster_demo.png" alt="Resume Roaster demo" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
     </div>
     <div> 
-      <strong>Resume Roaster</strong><br>
+      <strong>Interview</strong><br>
       <i style="font-size: 13px;">
         <strong>Caiyu Yang</strong>, Junzhao Zhang, Zhilei Lin, Renjie Cao, Jiaxin Li
       </i><br>
       An intelligent mock interview dialogue system based on RAG (Retrieval-Augmented Generation). Features: resume parsing, multi‑style interview simulation, speech recognition, and performance evaluation.
       <br> 
       <b><i style="color:#83a1c7;">RAG · LLM · ASR · TTS &nbsp;</i></b> 
-      <a href=""><em>[code]</em></a> 
-      <a href=""><em>[demo]</em></a> 
+      <a href="https://github.com/yitanyi/Interview"><em>[GitHub]</em></a> 
     </div>
   </div> 
 </div>
@@ -170,26 +169,20 @@ Works
 <div class="works-card">
   <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
     <div style="flex: 1.2; min-width: 280px;">
-      <video width="100%" preload="metadata" controls id="myVideo">
-        <source src="/Videos/1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <script>
-        (function() {
-          var video = document.getElementById('myVideo');
-          if (video) {
-            video.addEventListener('click', function() {
-              if (video.paused) {
-                video.play().catch(function(e) {
-                  console.log("播放失败:", e);
-                });
-              } else {
-                video.pause();
-              }
-            });
-          }
-        })();
-      </script>
+    <video width="100%" preload="metadata" controls id="video-courtyard">
+      <source src="/Videos/1.mp4" type="video/mp4">
+    </video>
+    <script>
+      (function() {
+        var video = document.getElementById('video-courtyard');
+        if (video) {
+          video.addEventListener('click', function() {
+            if (video.paused) video.play().catch(e => console.log("播放失败:", e));
+            else video.pause();
+          });
+        }
+      })();
+    </script>
     </div>
     <div style="flex: 2; min-width: 200px;">
       <strong>"Courtyard Time" – AI-driven healing life simulation game</strong><br>
@@ -201,6 +194,78 @@ Works
     </div>
   </div>
 </div>
+
+
+<div class="works-card">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1.2; min-width: 280px;">
+      <video width="100%" preload="metadata" controls id="video-climate">
+        <source src="/Videos/china_climate.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script>
+        (function() {
+          var video = document.getElementById('video-climate');
+          if (video) {
+            video.addEventListener('click', function() {
+              if (video.paused) video.play().catch(e => console.log("播放失败:", e));
+              else video.pause();
+            });
+          }
+        })();
+      </script>
+    </div>
+    <div style="flex: 2; min-width: 200px;">
+      <strong>Meteorological Wonders · Climate Map of China</strong><br>
+      <i style="font-size: 13px;">Python · Dash · Plotly · Interactive Charts</i><br><br>
+      <p>Transform complex meteorological data into intuitive, interactive visualization tools to understand the spatiotemporal patterns of China's climate.</p>
+      <p><b><i style="color:#83a1c7;">📊 Completed &nbsp;</i></b>
+        <a href="https://github.com/yitanyi/china-climate-dashboard"><em>[GitHub]</em></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="works-card">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1.2; min-width: 280px;">
+      <video width="100%" preload="metadata" controls id="video-ashare">
+        <source src="/Videos/ashare_analysis.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script>
+        (function() {
+          var video = document.getElementById('video-ashare');
+          if (video) {
+            video.addEventListener('click', function() {
+              if (video.paused) video.play().catch(e => console.log("播放失败:", e));
+              else video.pause();
+            });
+          }
+        })();
+      </script>
+    </div>
+    <div style="flex: 2; min-width: 200px;">
+      <strong>Digging for Gold in A-Share Market</strong><br>
+      <i style="font-size: 13px;">Python · Dash · Plotly · akshare · Machine Learning</i><br><br>
+      <p>Build an interactive quantitative analysis platform for A-shares, supporting real-time market data retrieval and multi-dimensional visualization, along with closing price prediction and strategy backtesting, plus an AI assistant for real-time Q&A.</p>
+      <p><b><i style="color:#83a1c7;">📈 Continuously Updated &nbsp;</i></b>
+        <a href="https://github.com/yitanyi/ashare-analysis-platform"><em>[GitHub]</em></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 <style>
 .works-card {
