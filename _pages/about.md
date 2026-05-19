@@ -248,7 +248,7 @@ Awards
 - **Lanqiao Cup(AIGC Video Creative Design)** : National Second Prize
 - **Lanqiao Cup (Visual Art Design)** : National Third Prize
 - **The 11th National Statistical Modeling Competition for College Students** : Provincial First Prize
-- **"Zhengda Cup" The 12th National College Student Market Research and Analysis Competition** : Provincial First Prize
+- **"Zhengda Cup" National College Student Market Research and Analysis Competition** : Provincial First Prize
 - **Future Designer·National College Digital Art Design Competition** : Provincial First Prize
 - **National College Mathematical Competition**: Provincial Second Prize
 - **The 10th National Statistical Modeling Competition for College Students** : Provincial Third Prize
