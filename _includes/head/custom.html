@@ -22,6 +22,17 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
 
+
+<!-- 自定义样式：作者信息（单位名称过长时自动换行） -->
+<style>
+  .author__urls li.author__contact { white-space: normal; }
+  .author__urls li.author__contact a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+</style>
+
+
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

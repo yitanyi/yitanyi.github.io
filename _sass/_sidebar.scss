@@ -247,6 +247,11 @@
     white-space: nowrap;
   }
 
+  /* 允许单位/机构名称等长文本换行，避免被遮挡 */
+  li.author__contact {
+    white-space: normal;
+  }
+
   a,
   span {
     display: grid;
@@ -260,6 +265,10 @@
     color: inherit;
     font-size: 1.1em;
     text-decoration: none;
+
+    /* 让文字在必要时断行（第二列） */
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   a {
