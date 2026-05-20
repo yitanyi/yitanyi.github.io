@@ -13,8 +13,10 @@
   }
 
   function normalizePathname(pathname) {
-    // 统一成以 / 结尾，避免 / 与 /index.html 等差异导致匹配失败
+    // 统一成以 / 结尾，尽量消除 / 与 /index.html 等差异导致匹配失败
     if (!pathname) return "/";
+    // 去掉结尾的 index.html / index.htm
+    pathname = pathname.replace(/index\.html?$/i, "");
     return pathname.endsWith("/") ? pathname : pathname + "/";
   }
 
@@ -132,31 +134,65 @@
 
     // IntersectionObserver：滚动到哪个标题附近，就激活哪个
     if ("IntersectionObserver" in window) {
-      var offset = getTopOffset();
-      var observer = new IntersectionObserver(
-        function (entries) {
-          var visible = entries
-            .filter(function (e) {
-              return e.isIntersecting;
-            })
-            .sort(function (a, b) {
-              return a.boundingClientRect.top - b.boundingClientRect.top;
-            })[0];
+      var observer = null;
+      var visibleTops = new Map(); // id -> boundingClientRect.top（仅保存当前 isIntersecting 的）
 
-          if (visible && visible.target && visible.target.id) {
-            setActive(visible.target.id);
+      function pickAndSetActive() {
+        var bestId = null;
+        var bestTop = Infinity;
+        visibleTops.forEach(function (top, id) {
+          if (top < bestTop) {
+            bestTop = top;
+            bestId = id;
           }
-        },
-        {
-          // 让“判定区域”从顶部往下偏移（避开固定导航栏遮挡）
-          root: null,
-          threshold: [0],
-          rootMargin: "-" + (offset + 8) + "px 0px -70% 0px",
-        }
-      );
+        });
+        if (bestId) setActive(bestId);
+      }
 
-      targets.forEach(function (el) {
-        observer.observe(el);
+      function setupObserver() {
+        if (observer) observer.disconnect();
+        visibleTops.clear();
+
+        var offset = getTopOffset();
+        observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (e) {
+              if (!e.target || !e.target.id) return;
+              if (e.isIntersecting) {
+                visibleTops.set(e.target.id, e.boundingClientRect.top);
+              } else {
+                visibleTops.delete(e.target.id);
+              }
+            });
+            pickAndSetActive();
+          },
+          {
+            // 让“判定区域”从顶部往下偏移（避开固定导航栏遮挡）
+            root: null,
+            threshold: [0],
+            rootMargin: "-" + (offset + 8) + "px 0px -70% 0px",
+          }
+        );
+
+        targets.forEach(function (el) {
+          observer.observe(el);
+        });
+      }
+
+      // 简单 debounce，避免 resize 频繁重建 observer
+      function debounce(fn, wait) {
+        var t = 0;
+        return function () {
+          window.clearTimeout(t);
+          t = window.setTimeout(fn, wait);
+        };
+      }
+
+      setupObserver();
+      window.addEventListener("resize", debounce(setupObserver, 150));
+      // 某些情况下（字体/图片加载导致 masthead 高度变化），load 后再校准一次
+      window.addEventListener("load", function () {
+        setupObserver();
       });
     }
   });
