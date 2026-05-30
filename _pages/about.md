@@ -67,82 +67,83 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</strong><br>
+    <span class="pub-list-badge">Ongoing</span><br>
     <i style="font-size: 13px;">
       Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song<sup>†</sup>
     </i><br> 
-    Ongoing. Proposes a multi-agent screenplay writing system with context-aware biaxial recursive task decomposition, inspired by professional screenwriting workflows, to improve the quality of screenplay generation.
+    Proposes a multi-agent screenplay writing system with context-aware biaxial recursive task decomposition, inspired by professional screenwriting workflows, to improve the quality of screenplay generation.
     <br> 
-    <b><i style="color:#83a1c7;">Ongoing &nbsp;</i></b> 
   </div>
 </div>
 
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</strong><br>
+    <span class="pub-list-badge">Under review</span><br>
     <i style="font-size: 13px;">
       Chunqi Hu†, <strong>Caiyu Yang</strong>‡, Yixin Zheng, Weilian Xie
     </i><br> 
-    Submitted to <em>Journal of Technical Economics & Management</em> (2026). Analyzes sentiment dynamics and early warning signals using NLP.
+    <em>Journal of Technical Economics & Management</em><br>
+    Integrates BERTopic for theme evolution, RoBERTa-BiGRU for sentiment classification, and an innovation-adaptive Kalman filter for early anomaly detection. A case study reveals persistent negative sentiment, risk amplification and attenuation mechanisms, and sentiment improvement windows, offering insights for dynamic risk governance.
     <br> 
-    <b><i style="color:#83a1c7;">Under review &nbsp;</i></b> 
   </div>
 </div>
 
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>A Dynamic PBR Material Generation Method and System Based on State Space Models</strong><br>
+    <span class="pub-list-badge">Pending</span><br>
     <i style="font-size: 13px;">
       <strong>Caiyu Yang</strong>‡, Guoyong Wang, Wenze Bai, Yi Shang
     </i><br> 
-    Chinese invention patent application (pending-2026). Proposes a state-space-based approach for dynamic PBR material synthesis.
+    Chinese invention patent<br>
+    Combines a Variational Autoencoder to compress PBR maps into latent vectors and a structured state-space model with HiPPO matrices for long-range memory. It predicts material evolution driven by external conditions such as temperature and humidity, enabling realistic aging, weathering, and corrosion effects in rendering.
     <br> 
-    <b><i style="color:#83a1c7;">Patent pending &nbsp;</i></b> 
   </div>
 </div>
 
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</strong><br>
+    <span class="pub-list-badge">Published</span><br>
     <i style="font-size: 13px;">
       <strong>Caiyu Yang</strong>, Xujun Cai†, Fan Zhang
     </i><br> 
-    Published in <em>Statistics and Application</em> (2025). Uses complex network theory to study inter-market correlations.
+    <em>Statistics and Application</em><br>
+    Applies Graph Attention Networks to analyze cross-market linkages among China’s stock, forex, bond, money, gold, and futures markets using high-frequency data from 2017 to 2025. It integrates linear and nonlinear Granger causality tests and impulse response functions, revealing asymmetric risk contagion with the forex market as a core hub.
     <br> 
-    <b><i style="color:#83a1c7;">Published &nbsp;</i></b> 
     <a href="https://pdf.hanspub.org/sa_2581794.pdf"><em>[paper]</em></a> 
   </div>
 </div>
 
 </div>
 
-<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
-  <ul class="full-publication-list">
-    <li>
-      <span class="pub-list-badge">Ongoing</span>
-      <span class="pub-list-title">ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</span><br>
-      <span class="pub-list-authors">Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song</span>
-    </li>
-    <li>
-      <span class="pub-list-badge">Under review</span>
-      <span class="pub-list-title">Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</span><br>
-      <span class="pub-list-authors">Chunqi Hu, <strong>Caiyu Yang</strong>, et al.</span>
-    </li>
-    <li>
-      <span class="pub-list-badge">Patent pending</span>
-      <span class="pub-list-title">A Dynamic PBR Material Generation Method and System Based on State Space Models</span><br>
-      <span class="pub-list-authors"><strong>Caiyu Yang</strong> et al.</span>
-    </li>
-    <li>
-      <span class="pub-list-badge">Published</span>
-      <span class="pub-list-title">Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</span><br>
-      <span class="pub-list-authors"><strong>Caiyu Yang</strong>, Xujun Cai, Fan Zhang</span>
-      <span class="pub-list-links"><a href="https://pdf.hanspub.org/sa_2581794.pdf">[paper]</a></span>
-    </li>
-  </ul>
-</div>
-
 <script src="assets/js/show_publications.js"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
+
+
+<style>
+.publication-card {
+  background: var(--card-bg, #fff);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+.publication-card:hover {
+  transform: translateY(-3px);
+}
+@media (max-width: 768px) {
+  .publication-card > div {
+    flex-direction: column;
+  }
+}
+</style>
+
+
+
+
 
 
 Projects
@@ -164,6 +165,25 @@ Projects
     </div>
   </div> 
 </div>
+
+<style>
+.project-card {
+  background: var(--card-bg, #fff);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+.project-card:hover {
+  transform: translateY(-3px);
+}
+@media (max-width: 768px) {
+  .project-card > div {
+    flex-direction: column;
+  }
+}
+</style>
 
 
 Works
