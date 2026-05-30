@@ -83,7 +83,7 @@ Publications
     <i style="font-size: 13px;">
       Chunqi Hu†, <strong>Caiyu Yang</strong>‡, Yixin Zheng, Weilian Xie
     </i><br> 
-    <em>Journal of Technical Economics & Management</em><br>
+   <strong><em>Journal of Technical Economics & Management</em></strong><br>
     Integrates BERTopic for theme evolution, RoBERTa-BiGRU for sentiment classification, and an innovation-adaptive Kalman filter for early anomaly detection. A case study reveals persistent negative sentiment, risk amplification and attenuation mechanisms, and sentiment improvement windows, offering insights for dynamic risk governance.
     <br> 
   </div>
@@ -96,7 +96,7 @@ Publications
     <i style="font-size: 13px;">
       <strong>Caiyu Yang</strong>‡, Guoyong Wang, Wenze Bai, Yi Shang
     </i><br> 
-    Chinese invention patent<br>
+    <strong><em>Chinese invention patent</em></strong><br>
     Combines a Variational Autoencoder to compress PBR maps into latent vectors and a structured state-space model with HiPPO matrices for long-range memory. It predicts material evolution driven by external conditions such as temperature and humidity, enabling realistic aging, weathering, and corrosion effects in rendering.
     <br> 
   </div>
@@ -109,7 +109,7 @@ Publications
     <i style="font-size: 13px;">
       <strong>Caiyu Yang</strong>, Xujun Cai†, Fan Zhang
     </i><br> 
-    <em>Statistics and Application</em><br>
+    <strong><em>Statistics and Application</em></strong><br>
     Applies Graph Attention Networks to analyze cross-market linkages among China’s stock, forex, bond, money, gold, and futures markets using high-frequency data from 2017 to 2025. It integrates linear and nonlinear Granger causality tests and impulse response functions, revealing asymmetric risk contagion with the forex market as a core hub.
     <br> 
     <a href="https://pdf.hanspub.org/sa_2581794.pdf"><em>[paper]</em></a> 
