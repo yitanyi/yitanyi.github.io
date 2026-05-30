@@ -43,7 +43,7 @@ Experience
   </div>
 
   <div class="experience-card">
-      <img src="images/ncut_logo.png" alt="NCUT logo" class="experience-logo">
+      <img src="images/ncut_logo.jpg" alt="NCUT logo" class="experience-logo">
       <div class="experience-info">
           <strong>North China University of Technology</strong><br>
           <em>2025 - 2026</em><br>
@@ -116,6 +116,32 @@ Publications
   </div>
 </div>
 
+</div>
+
+<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
+  <ul class="full-publication-list">
+    <li>
+      <span class="pub-list-badge">Ongoing</span>
+      <span class="pub-list-title">ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</span><br>
+      <span class="pub-list-authors">Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song</span>
+    </li>
+    <li>
+      <span class="pub-list-badge">Under review</span>
+      <span class="pub-list-title">Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</span><br>
+      <span class="pub-list-authors">Chunqi Hu, <strong>Caiyu Yang</strong>, Yixin Zheng, Weilian Xie</span>
+    </li>
+    <li>
+      <span class="pub-list-badge">Patent pending</span>
+      <span class="pub-list-title">A Dynamic PBR Material Generation Method and System Based on State Space Models</span><br>
+      <span class="pub-list-authors"><strong>Caiyu Yang</strong>, Guoyong Wang, Wenze Bai, Yi Shang</span>
+    </li>
+    <li>
+      <span class="pub-list-badge">Published</span>
+      <span class="pub-list-title">Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</span><br>
+      <span class="pub-list-authors"><strong>Caiyu Yang</strong>, Xujun Cai, Fan Zhang</span>
+      <span class="pub-list-links"><a href="https://pdf.hanspub.org/sa_2581794.pdf">[paper]</a></span>
+    </li>
+  </ul>
 </div>
 
 <script src="assets/js/show_publications.js"></script>
