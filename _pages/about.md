@@ -32,16 +32,26 @@ Experience
 
 <div class="experience-container">
 
-
   <div class="experience-card">
       <img src="images/jxust_logo.jpg" alt="JXUST logo" class="experience-logo">
       <div class="experience-info">
           <strong>Jiangxi University of Science and Technology</strong><br>
           <em>2023.09 - Present</em><br>
-          Rank 3/88, Bachelor of Engineering in Virtual Reality Technology<br>
-          <span style="color:#888;">Research interests include large language models, multimodal learning, and computer graphics applications.</span>
+          Rank 3/88, Virtual Reality Technology<br>
+          <span style="color:#888;">Computer Graphics 92, U3D Application Development 94, 3D Animation 96, Advanced Mathematics 2 98, Data Structures 94</span>
       </div>
   </div>
+
+  <div class="experience-card">
+      <img src="images/ncut_logo.png" alt="NCUT logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>North China University of Technology</strong><br>
+          <em>2025 - 2026</em><br>
+          Exchange Student, Digital Media Technology<br>
+          <span style="color:#888;">Game Psychology 94, Fundamentals of AI 100, Machine Learning and LLM Fundamentals 99, 3D Scene Design 95</span>
+      </div>
+  </div>
+
 </div>
 
 
@@ -55,57 +65,52 @@ Publications
 <div id="core-publications" class="publication-view" data-publication-view="core">
 
 <div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/patent_diagram.png" alt="Patent diagram" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>A Dynamic PBR Material Generation Method and System Based on State Space Models</strong><br>
-      <i style="font-size: 13px;">
-        <strong>Caiyu Yang</strong>‡, Guoyong Wang, Wenze Bai, Yi Shang
-      </i><br> 
-      Chinese invention patent application (pending-2026). Proposes a state-space-based approach for dynamic PBR material synthesis.
-      <br> 
-      <b><i style="color:#83a1c7;">Patent pending &nbsp;</i></b> 
-      <a href=""><em>[details]</em></a> 
-    </div>
-  </div> 
+  <div>
+    <strong>ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</strong><br>
+    <i style="font-size: 13px;">
+      Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song<sup>†</sup>
+    </i><br> 
+    Ongoing. Proposes a multi-agent screenplay writing system with context-aware biaxial recursive task decomposition, inspired by professional screenwriting workflows, to improve the quality of screenplay generation.
+    <br> 
+    <b><i style="color:#83a1c7;">Ongoing &nbsp;</i></b> 
+  </div>
 </div>
 
 <div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/public_opinion_chart.png" alt="Public opinion evolution" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</strong><br>
-      <i style="font-size: 13px;">
-        Chunqi Hu†, <strong>Caiyu Yang</strong>‡, Yixin Zheng, Weilian Xie
-      </i><br> 
-      Submitted to <em>Information Exploration</em> (2026). Analyzes sentiment dynamics and early warning signals using NLP.
-      <br> 
-      <b><i style="color:#83a1c7;">Under review &nbsp;</i></b> 
-      <a href=""><em>[preprint]</em></a> 
-    </div>
-  </div> 
+  <div>
+    <strong>Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</strong><br>
+    <i style="font-size: 13px;">
+      Chunqi Hu†, <strong>Caiyu Yang</strong>‡, Yixin Zheng, Weilian Xie
+    </i><br> 
+    Submitted to <em>Journal of Technical Economics & Management</em> (2026). Analyzes sentiment dynamics and early warning signals using NLP.
+    <br> 
+    <b><i style="color:#83a1c7;">Under review &nbsp;</i></b> 
+  </div>
 </div>
 
 <div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/market_network.png" alt="Financial network" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</strong><br>
-      <i style="font-size: 13px;">
-        <strong>Caiyu Yang</strong>, Xujun Cai†, Fan Zhang
-      </i><br> 
-      Published in <em>Statistics and Application</em> (2025). Uses complex network theory to study inter-market correlations.
-      <br> 
-      <b><i style="color:#83a1c7;">Published &nbsp;</i></b> 
-      <a href=""><em>[paper]</em></a> 
-    </div>
-  </div> 
+  <div>
+    <strong>A Dynamic PBR Material Generation Method and System Based on State Space Models</strong><br>
+    <i style="font-size: 13px;">
+      <strong>Caiyu Yang</strong>‡, Guoyong Wang, Wenze Bai, Yi Shang
+    </i><br> 
+    Chinese invention patent application (pending-2026). Proposes a state-space-based approach for dynamic PBR material synthesis.
+    <br> 
+    <b><i style="color:#83a1c7;">Patent pending &nbsp;</i></b> 
+  </div>
+</div>
+
+<div class="publication-card" data-category="all"> 
+  <div>
+    <strong>Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</strong><br>
+    <i style="font-size: 13px;">
+      <strong>Caiyu Yang</strong>, Xujun Cai†, Fan Zhang
+    </i><br> 
+    Published in <em>Statistics and Application</em> (2025). Uses complex network theory to study inter-market correlations.
+    <br> 
+    <b><i style="color:#83a1c7;">Published &nbsp;</i></b> 
+    <a href="https://pdf.hanspub.org/sa_2581794.pdf"><em>[paper]</em></a> 
+  </div>
 </div>
 
 </div>
@@ -113,22 +118,25 @@ Publications
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
     <li>
-      <span class="pub-list-badge">Patent pending</span>
-      <span class="pub-list-title">A Dynamic PBR Material Generation Method and System Based on State Space Models</span><br>
-      <span class="pub-list-authors"><strong>Caiyu Yang</strong> et al.</span>
-      <span class="pub-list-links"><a href="">[details]</a></span>
+      <span class="pub-list-badge">Ongoing</span>
+      <span class="pub-list-title">ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</span><br>
+      <span class="pub-list-authors">Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song</span>
     </li>
     <li>
       <span class="pub-list-badge">Under review</span>
       <span class="pub-list-title">Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</span><br>
       <span class="pub-list-authors">Chunqi Hu, <strong>Caiyu Yang</strong>, et al.</span>
-      <span class="pub-list-links"><a href="">[preprint]</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">Patent pending</span>
+      <span class="pub-list-title">A Dynamic PBR Material Generation Method and System Based on State Space Models</span><br>
+      <span class="pub-list-authors"><strong>Caiyu Yang</strong> et al.</span>
     </li>
     <li>
       <span class="pub-list-badge">Published</span>
       <span class="pub-list-title">Analysis of Chinese Financial Market Linkages Based on Complex Network Methods</span><br>
       <span class="pub-list-authors"><strong>Caiyu Yang</strong>, Xujun Cai, Fan Zhang</span>
-      <span class="pub-list-links"><a href="">[paper]</a></span>
+      <span class="pub-list-links"><a href="https://pdf.hanspub.org/sa_2581794.pdf">[paper]</a></span>
     </li>
   </ul>
 </div>
@@ -158,13 +166,8 @@ Projects
 </div>
 
 
-
-
-
 Works
 --------
-
-
 
 <div class="works-card">
   <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
@@ -258,15 +261,6 @@ Works
 </div>
 
 
-
-
-
-
-
-
-
-
-
 <style>
 .works-card {
   background: var(--card-bg, #fff);
@@ -285,21 +279,6 @@ Works
   }
 }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Awards  
