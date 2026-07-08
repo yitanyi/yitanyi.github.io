@@ -79,11 +79,10 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</strong><br>
-    <span class="pub-list-badge">Under review</span><br>
+    <span class="pub-list-badge">Ongoing</span><br>
     <i style="font-size: 13px;">
       Chunqi Hu†, <strong>Caiyu Yang</strong>‡, Yixin Zheng, Weilian Xie
     </i><br> 
-   <strong><em>Journal of Technical Economics & Management</em></strong><br>
     Integrates BERTopic for theme evolution, RoBERTa-BiGRU for sentiment classification, and an innovation-adaptive Kalman filter for early anomaly detection. A case study reveals persistent negative sentiment, risk amplification and attenuation mechanisms, and sentiment improvement windows, offering insights for dynamic risk governance.
     <br> 
   </div>
@@ -126,7 +125,7 @@ Publications
       <span class="pub-list-authors">Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song</span>
     </li>
     <li>
-      <span class="pub-list-badge">Under review</span>
+      <span class="pub-list-badge">Ongoing</span>
       <span class="pub-list-title">Emotional Evolution and Early Warning of Online Public Opinion for Sudden Food Safety Incidents – A Case Study of Xibei Prepared Food</span><br>
       <span class="pub-list-authors">Chunqi Hu, <strong>Caiyu Yang</strong>, Yixin Zheng, Weilian Xie</span>
     </li>
@@ -329,7 +328,7 @@ Works
 
 Awards  
 --------
-- **Tianchi CCL2026-Eval (Grain Breeding Information Extraction Evaluation)** : Rank 11 on A-list (fine‑tuning track)
+- **Tianchi CCL2026-Eval (Grain Breeding Information Extraction Evaluation)** : Rank 7 on B-list (fine‑tuning track)
 - **Tianchi NLP News Classification** : Rank 12
 - **Tianchi AI in Financial Marketing** : Rank 144 (time series forecasting)
 - **Tianchi Medical Search Query Relevance** : Rank 288
