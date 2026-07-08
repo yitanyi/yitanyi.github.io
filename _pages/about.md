@@ -214,6 +214,28 @@ Projects
 Works
 --------
 
+
+
+<!-- New Digital Human Project -->
+<div class="works-card">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1.2; min-width: 280px;">
+      <img src="images/digital_human_main.png" alt="Intelligent Digital Human Interaction System" style="width:100%; border-radius:8px;">
+    </div>
+    <div style="flex: 2; min-width: 200px;">
+      <strong>Intelligent Digital Human Interaction System</strong><br>
+      <i style="font-size: 13px;">Unity · DeepSeek API · MediaPipe · Multimodal Emotion Recognition</i><br><br>
+      <p>A real‑time interaction system based on multimodal perception, supporting voice dialogue, gesture control, proactive scene‑aware conversation, human agent handoff, and emotion‑driven responses.</p>
+      <p><b><i style="color:#83a1c7;">🎮 Completed &nbsp;</i></b></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 <div class="works-card">
   <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
     <div style="flex: 1.2; min-width: 280px;">
