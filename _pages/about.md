@@ -67,12 +67,13 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</strong><br>
-    <span class="pub-list-badge">Ongoing</span><br>
+    <span class="pub-list-badge">Under Review (AAAI 2026)</span><br>
     <i style="font-size: 13px;">
       Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song<sup>†</sup>
     </i><br> 
     Proposes a multi-agent screenplay writing system with context-aware biaxial recursive task decomposition, inspired by professional screenwriting workflows, to improve the quality of screenplay generation.
     <br> 
+    <a href="https://openreview.net/forum?id=3wS5BAtPZY"><em>[paper]</em></a> 
   </div>
 </div>
 
@@ -91,13 +92,14 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>A Dynamic PBR Material Generation Method and System Based on State Space Models</strong><br>
-    <span class="pub-list-badge">Pending</span><br>
+    <span class="pub-list-badge">Granted</span><br>
     <i style="font-size: 13px;">
       <strong>Caiyu Yang</strong>‡, Guoyong Wang, Wenze Bai, Yi Shang
     </i><br> 
     <strong><em>Chinese invention patent</em></strong><br>
     Combines a Variational Autoencoder to compress PBR maps into latent vectors and a structured state-space model with HiPPO matrices for long-range memory. It predicts material evolution driven by external conditions such as temperature and humidity, enabling realistic aging, weathering, and corrosion effects in rendering.
     <br> 
+    <a href="https://cpquery.cponline.cnipa.gov.cn/detail/index?zhuanlisqh=BKizsW%252Bjivaz8KpAVL8qJA%253D%253D"><em>[patent]</em></a> 
   </div>
 </div>
 
@@ -120,9 +122,10 @@ Publications
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
     <li>
-      <span class="pub-list-badge">Ongoing</span>
+      <span class="pub-list-badge">Under Review (AAAI 2026)</span>
       <span class="pub-list-title">ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</span><br>
       <span class="pub-list-authors">Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song</span>
+      <span class="pub-list-links"><a href="https://openreview.net/forum?id=3wS5BAtPZY">[paper]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Ongoing</span>
@@ -130,9 +133,10 @@ Publications
       <span class="pub-list-authors">Chunqi Hu, <strong>Caiyu Yang</strong>, Yixin Zheng, Weilian Xie</span>
     </li>
     <li>
-      <span class="pub-list-badge">Patent pending</span>
+      <span class="pub-list-badge">Granted</span>
       <span class="pub-list-title">A Dynamic PBR Material Generation Method and System Based on State Space Models</span><br>
       <span class="pub-list-authors"><strong>Caiyu Yang</strong>, Guoyong Wang, Wenze Bai, Yi Shang</span>
+      <span class="pub-list-links"><a href="https://cpquery.cponline.cnipa.gov.cn/detail/index?zhuanlisqh=BKizsW%252Bjivaz8KpAVL8qJA%253D%253D">[patent]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Published</span>
