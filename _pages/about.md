@@ -69,7 +69,7 @@ Publications
     <strong>ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</strong><br>
     <span class="pub-list-badge">Under Review (AAAI 2026)</span><br>
     <i style="font-size: 13px;">
-      Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song<sup>†</sup>
+      Hongli Ding, Ying Li, <strong>Caiyu Yang</strong>, Xingquan Cai, Zikang Song<sup>†</sup>
     </i><br> 
     Proposes a multi-agent screenplay writing system with context-aware biaxial recursive task decomposition, inspired by professional screenwriting workflows, to improve the quality of screenplay generation.
     <br> 
@@ -124,7 +124,7 @@ Publications
     <li>
       <span class="pub-list-badge">Under Review (AAAI 2026)</span>
       <span class="pub-list-title">ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</span><br>
-      <span class="pub-list-authors">Hongli Ding, Ying Li, Xingquan Cai, <strong>Caiyu Yang</strong>, Guangzi Zhang, Zikang Song</span>
+      <span class="pub-list-authors">Hongli Ding, Ying Li, <strong>Caiyu Yang</strong>, Xingquan Cai, Zikang Song</span>
       <span class="pub-list-links"><a href="https://openreview.net/forum?id=3wS5BAtPZY">[paper]</a></span>
     </li>
     <li>
