@@ -37,7 +37,7 @@ Experience
       <div class="experience-info">
           <strong>Jiangxi University of Science and Technology</strong><br>
           <em>2023.09 - Present</em><br>
-          Rank 3/88, Virtual Reality Technology<br>
+          Rank 3/86, Virtual Reality Technology<br>
           <span style="color:#888;">Computer Graphics 92, U3D Application Development 94, 3D Animation 96, Advanced Mathematics 2 98, Data Structures 94</span>
       </div>
   </div>
