@@ -67,7 +67,7 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div>
     <strong>ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</strong><br>
-    <span class="pub-list-badge">Under Review (AAAI 2026)</span><br>
+    <span class="pub-list-badge">Under Review (AAAI 2027)</span><br>
     <i style="font-size: 13px;">
       Hongli Ding, Ying Li, <strong>Caiyu Yang</strong>, Xingquan Cai, Zikang Song<sup>†</sup>
     </i><br> 
@@ -122,7 +122,7 @@ Publications
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
     <li>
-      <span class="pub-list-badge">Under Review (AAAI 2026)</span>
+      <span class="pub-list-badge">Under Review (AAAI 2027)</span>
       <span class="pub-list-title">ScreenWeaver: Collaborative Long-form Screenwriting Based on Dual-axis Recursive Planning</span><br>
       <span class="pub-list-authors">Hongli Ding, Ying Li, <strong>Caiyu Yang</strong>, Xingquan Cai, Zikang Song</span>
       <span class="pub-list-links"><a href="https://openreview.net/forum?id=3wS5BAtPZY">[paper]</a></span>
